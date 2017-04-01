@@ -142,8 +142,8 @@ public class Atividade02 {
         BufferedImage pixelTraste = convolve(pixelateImg, contraste, 15); // aplica o contraste
 
 
-        ImageIO.write(pixelateImg, "png", new File("pixelPuppy.png"));
-        ImageIO.write(pixelTraste, "png", new File("conv.png"));
+        ImageIO.write(pixelateImg, "png", new File("pixelMetroid.png"));
+        ImageIO.write(pixelTraste, "png", new File("pixelConMetroid.png"));
 
     }
 
